@@ -1,6 +1,20 @@
 --CREATE DATABASE location_vehicule;
 --DBCC CHECKIDENT (' ', RESEED, 0)  
 
+--------------------------------------------------------------------------------------
+-- Calculer et afficher le temps de requête : 
+
+
+--DECLARE @debut TIME = GETDATE()
+--DECLARE @fin TIME
+
+--{la requête}
+
+--SET @fin = GETDATE()
+--SELECT DATEDIFF(ms,@debut,@fin) AS Temps_écoulé_MS
+---------------------------------------------------------------------------------------
+
+
 USE location_vehicule;
 GO
 
